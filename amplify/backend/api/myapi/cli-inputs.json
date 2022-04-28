@@ -1,9 +1,9 @@
 {
   "version": 1,
   "paths": {
-    "/users": {
-      "name": "/users",
-      "lambdaFunction": "MyApiUsers",
+    "/greeting": {
+      "name": "/greeting",
+      "lambdaFunction": "MyApiGreeting",
       "permissions": {
         "setting": "open"
       }
