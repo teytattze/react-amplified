@@ -5,11 +5,14 @@ import './App.css';
 
 function App() {
   const [data, setData] = useState(null);
-  useEffect(() => {}, []);
+
+  useEffect(() => {
+    greeting();
+  }, []);
 
   const greeting = async () => {
     const greetingData = await API.get('myapi', '/greeting', {});
-    setData(greetingData.message);
+    setData(greetingData);
   };
 
   return (
@@ -19,7 +22,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <h2>{data}</h2>
+        <h2>{JSON.stringify(data)}</h2>
       </header>
     </div>
   );

@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "function": {
-        "MyApiUsers": {
+        "MyApiGreeting": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",

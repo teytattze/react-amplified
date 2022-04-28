@@ -10,6 +10,14 @@
       "StackName": "amplify-reactamplified-dev-00311",
       "StackId": "arn:aws:cloudformation:eu-west-2:167016972203:stack/amplify-reactamplified-dev-00311/613dd390-c747-11ec-b9dd-023386afa06e",
       "AmplifyAppId": "d39a4iiotnk2fo"
+    },
+    "categories": {
+      "function": {
+        "MyApiGreeting": {
+          "deploymentBucketName": "amplify-reactamplified-dev-00311-deployment",
+          "s3Key": "amplify-builds/MyApiGreeting-32474954325251752b51-build.zip"
+        }
+      }
     }
   }
 }
