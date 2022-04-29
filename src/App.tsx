@@ -12,7 +12,7 @@ function App() {
 
   const greeting = async () => {
     const greetingData = await API.get('myapi', '/greeting', {});
-    setData(greetingData.message);
+    setData(greetingData);
   };
 
   return (

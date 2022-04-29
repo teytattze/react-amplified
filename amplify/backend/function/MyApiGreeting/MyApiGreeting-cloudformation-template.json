@@ -43,7 +43,7 @@
             "Ref": "s3Key"
           }
         },
-        "Handler": "main",
+        "Handler": "index.handler",
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
@@ -78,7 +78,7 @@
             "Arn"
           ]
         },
-        "Runtime": "go1.x",
+        "Runtime": "nodejs14.x",
         "Layers": [],
         "Timeout": 25
       }
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "reactamplifiedLambdaRolef522dfe1",
+            "reactamplifiedLambdaRole363818e6",
             {
               "Fn::Join": [
                 "",
                 [
-                  "reactamplifiedLambdaRolef522dfe1",
+                  "reactamplifiedLambdaRole363818e6",
                   "-",
                   {
                     "Ref": "env"
