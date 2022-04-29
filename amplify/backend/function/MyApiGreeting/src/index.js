@@ -1,3 +1,5 @@
+const { getId } = require('../../reactamplifiedGreetingLayer/lib/nodejs');
+
 /**
  * @type {import('@types/aws-lambda').APIGatewayProxyHandler}
  */
@@ -10,6 +12,6 @@ exports.handler = async (event) => {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': '*',
     },
-    body: JSON.stringify('Hello from Lambda!'),
+    body: JSON.stringify(`${getId()} - Hello from Lambda!`),
   };
 };

@@ -15,7 +15,11 @@
       "function": {
         "MyApiGreeting": {
           "deploymentBucketName": "amplify-reactamplified-dev-00311-deployment",
-          "s3Key": "amplify-builds/MyApiGreeting-59466e72426c472f4b63-build.zip"
+          "s3Key": "amplify-builds/MyApiGreeting-79756d7147364631616c-build.zip"
+        },
+        "reactamplifiedGreetingLayer": {
+          "deploymentBucketName": "amplify-reactamplified-dev-00311-deployment",
+          "s3Key": "amplify-builds/reactamplifiedGreetingLayer-LambdaLayerVersion0cc27574-build.zip"
         }
       }
     }
