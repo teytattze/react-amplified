@@ -15,7 +15,7 @@
       "function": {
         "MyApiGreeting": {
           "deploymentBucketName": "amplify-reactamplified-dev-00311-deployment",
-          "s3Key": "amplify-builds/MyApiGreeting-32474954325251752b51-build.zip"
+          "s3Key": "amplify-builds/MyApiGreeting-686f4678434f67396b52-build.zip"
         }
       }
     }
